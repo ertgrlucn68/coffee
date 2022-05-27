@@ -1,0 +1,74 @@
+@import "../../../styles/variables.scss";
+
+.footer {
+  background-color: $pink-secondary;
+  padding-top: 100px;
+}
+.contact_area {
+  width: 100%;
+
+  .contact_title {
+    font-family: $secondary-font;
+    font-size: 40px;
+    color: $green-primary;
+    margin-bottom: 20px;
+  }
+}
+.contact_list {
+  margin: 50px 0;
+
+  .contact_list_title {
+    font-family: $secondary-font;
+    font-size: 30px;
+    color: $green-primary;
+    margin-bottom: 20px;
+  }
+}
+.contact_list_link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: $green-primary;
+  transform: translateX(0);
+  transition: $transition;
+  font-family: $secondary-font;
+  &:hover {
+    transform: translateX(10px);
+    color: $green-primary;
+  }
+  .footer_icon {
+    margin-right: 10px;
+    color: #000;
+  }
+}
+.social_area {
+  height: 100%;
+  margin-top: 70px;
+}
+.social_link {
+  margin-left: 20px;
+  filter: drop-shadow(0);
+  transition: $transition;
+  &:hover {
+    transform: translateY(-5px) !important;
+    filter: drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.466));
+  }
+  .social_icon {
+    width: 45px;
+    height: 45px;
+    color: #fff;
+  }
+}
+.footer_copyright {
+  padding: 50px 0;
+  text-align: center;
+
+  .copyright_title {
+    font-family: $secondary-font;
+    font-size: 25px;
+    color: $green-primary;
+  }
+}

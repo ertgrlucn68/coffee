@@ -1,0 +1,73 @@
+@import "../../../styles/variables.scss";
+
+.roadmap {
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+  background: url("/bg.png") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  .roadmap_wrapper {
+    background-color: #3d2d6385;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    padding: 20px 50px;
+    .title {
+      text-align: center;
+      color: $pink-primary;
+      font-size: 60px;
+      text-transform: uppercase;
+      font-family: $secondary-font;
+    }
+  }
+  .road_bg {
+    position: absolute;
+    z-index: -2;
+    object-fit: cover;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+.roadmap_content {
+  width: 100%;
+}
+.road_title {
+  font-family: $secondary-font;
+  color: $pink-primary;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.road_description {
+  font-family: $secondary-font;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.roadmap_video {
+  background-color: transparent;
+}
+.text_align_first {
+  text-align: start;
+}
+.text_align_second {
+  text-align: end;
+}
+@media screen and (max-width: 767.9px) {
+  .order_first {
+    order: 1;
+  }
+  .order_second {
+    order: 2;
+  }
+  .text_align_first {
+    text-align: center !important;
+  }
+  .text_align_second {
+    text-align: center !important;
+  }
+  .roadmap_wrapper {
+    padding: 20px 10px !important;
+    text-align: center;
+  }
+}

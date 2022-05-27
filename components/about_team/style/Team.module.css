@@ -1,0 +1,53 @@
+.team {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6a0a9), to(#adbffd));
+  background: linear-gradient(180deg, #f6a0a9 0%, #adbffd 100%);
+}
+
+.team_wrapper {
+  background-color: #5a448c;
+  padding: 50px 25px;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.team_title {
+  text-align: center;
+  font-size: 50px;
+  color: #f6a0a9;
+  font-family: "Neuzeit";
+  margin-bottom: 40px;
+}
+
+.team_img_wrapper {
+  margin-bottom: 50px;
+}
+
+.team_person_info {
+  width: 100%;
+  padding: 0 20px;
+  text-align: start;
+  margin-top: 30px;
+}
+
+.team_person_title {
+  font-size: 25px;
+  color: #fff;
+  font-family: "Neuzeit";
+}
+
+.team_person_desc_wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.team_person_desc_wrapper .team_person_desc {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Neuzeit";
+}
+/*# sourceMappingURL=Team.module.css.map */

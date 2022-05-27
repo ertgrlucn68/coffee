@@ -1,0 +1,10 @@
+export {default as Header} from "./header/Header";
+export {default as Banner} from "./banner/Banner";
+export {default as HomeAbout} from "./home_about/HomeAbout";
+export {default as Roadmap} from "./roadmap/Roadmap";
+export {default as Team} from "./about_team/Team";
+export {default as OurGallery} from "./gallery/OurGallery";
+export {default as About} from "./about_us/About";
+export {default as Footer} from "./footer/Footer";
+export {default as ToTop} from "./to_top/ToTop"; 
+export {default as FlyCoffee} from "./fly_coffee/FlyCoffee";

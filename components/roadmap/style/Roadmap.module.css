@@ -1,0 +1,88 @@
+.roadmap {
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+  background: url("/bg.png") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.roadmap .roadmap_wrapper {
+  background-color: #20075c85;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 20px 50px;
+}
+
+.roadmap .roadmap_wrapper .title {
+  text-align: center;
+  color: #f6a0a9;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: "Neuzeit";
+}
+
+.roadmap .road_bg {
+  position: absolute;
+  z-index: -2;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+}
+
+.roadmap_content {
+  width: 100%;
+}
+
+.road_title {
+  font-family: "Neuzeit";
+  color: #f6a0a9;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.road_description {
+  font-family: "Neuzeit";
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.roadmap_video {
+  background-color: transparent;
+}
+
+.text_align_first {
+  text-align: start;
+}
+
+.text_align_second {
+  text-align: end;
+}
+
+@media screen and (max-width: 767.9px) {
+  .order_first {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .order_second {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .text_align_first {
+    text-align: center !important;
+  }
+  .text_align_second {
+    text-align: center !important;
+  }
+  .roadmap_wrapper {
+    padding: 20px 10px !important;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=Roadmap.module.css.map */

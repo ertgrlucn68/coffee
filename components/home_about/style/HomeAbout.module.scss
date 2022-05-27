@@ -1,0 +1,25 @@
+@import "../../../styles/variables.scss";
+
+.home_about {
+  padding: 100px 0;
+  background: $gradient-reverse;
+}
+.about_wrapper {
+  max-width: 500px;
+  text-align: start;
+  margin: 0 auto;
+}
+.title {
+  font-family: $primary-font;
+  color: #5a458d;
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 35px;
+}
+.description {
+  font-family: $secondary-font;
+  color: $purple-primary;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 35px;
+}

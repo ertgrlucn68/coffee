@@ -1,0 +1,34 @@
+@import "../../../styles/variables.scss";
+
+.our_gallery {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background: $gradient;
+}
+.title {
+  font-family: $secondary-font;
+  font-size: 50px;
+  color: $green-primary;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.card_area {
+  margin-top: 150px;
+}
+.card_content {
+  width: 100%;
+  height: 100%;
+}
+.card_title {
+  font-family: $secondary-font;
+  color: $green-primary;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.card_text {
+  font-family: $secondary-font;
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 25px;
+}

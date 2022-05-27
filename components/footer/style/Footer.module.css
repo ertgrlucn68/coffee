@@ -1,0 +1,96 @@
+.footer {
+  background-color: #f0ced1;
+  padding-top: 100px;
+}
+
+.contact_area {
+  width: 100%;
+}
+
+.contact_area .contact_title {
+  font-family: "Neuzeit";
+  font-size: 40px;
+  color: #035772;
+  margin-bottom: 20px;
+}
+
+.contact_list {
+  margin: 50px 0;
+}
+
+.contact_list .contact_list_title {
+  font-family: "Neuzeit";
+  font-size: 30px;
+  color: #035772;
+  margin-bottom: 20px;
+}
+
+.contact_list_link {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #035772;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-family: "Neuzeit";
+}
+
+.contact_list_link:hover {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+  color: #035772;
+}
+
+.contact_list_link .footer_icon {
+  margin-right: 10px;
+  color: #000;
+}
+
+.social_area {
+  height: 100%;
+  margin-top: 70px;
+}
+
+.social_link {
+  margin-left: 20px;
+  -webkit-filter: drop-shadow(0);
+          filter: drop-shadow(0);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social_link:hover {
+  -webkit-transform: translateY(-5px) !important;
+          transform: translateY(-5px) !important;
+  -webkit-filter: drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.466));
+          filter: drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.466));
+}
+
+.social_link .social_icon {
+  width: 45px;
+  height: 45px;
+  color: #fff;
+}
+
+.footer_copyright {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer_copyright .copyright_title {
+  font-family: "Neuzeit";
+  font-size: 25px;
+  color: #035772;
+}
+/*# sourceMappingURL=Footer.module.css.map */

@@ -1,0 +1,107 @@
+.header {
+  padding: 5px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 50px;
+  z-index: 10;
+}
+
+.scrolled_header {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6a0a9), to(#adbffd));
+  background-image: linear-gradient(180deg, #f6a0a9 0%, #adbffd 100%);
+}
+
+.navbar_brand {
+  width: 130px;
+  height: 130px;
+  font-size: 0;
+}
+
+.navbar_item {
+  margin: 0 20px;
+  list-style: none;
+}
+
+.navbar_item .navbar_link {
+  font-family: "Chelsea Market", cursive;
+  text-decoration: none;
+  color: #effe95;
+  text-transform: uppercase;
+  font-size: 25px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar_item .navbar_link:hover {
+  -webkit-transform: translateY(-5px) !important;
+          transform: translateY(-5px) !important;
+  -webkit-filter: drop-shadow(0px 10px 3px rgba(141, 129, 129, 0.466));
+          filter: drop-shadow(0px 10px 3px rgba(141, 129, 129, 0.466));
+}
+
+.social_area {
+  position: relative;
+  left: -50px;
+  height: 100%;
+}
+
+.social_link {
+  left: 50px;
+  margin-left: 20px;
+  -webkit-filter: drop-shadow(0);
+          filter: drop-shadow(0);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social_link:hover {
+  -webkit-transform: translateY(-5px) !important;
+          transform: translateY(-5px) !important;
+  -webkit-filter: drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.466));
+          filter: drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.466));
+}
+
+.social_link .social_icon {
+  width: 45px;
+  height: 45px;
+  color: #fff;
+}
+
+.hamburger_btn {
+  background-color: transparent;
+  color: #fff;
+  font-size: 30px;
+  border: none;
+  display: none;
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 1122px) and (min-width: 992px) {
+  .navbar_link {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 991.9px) {
+  .navbar_item {
+    margin: 10px 20px !important;
+  }
+  .hamburger_btn {
+    display: block !important;
+  }
+  .header {
+    background: -webkit-gradient(linear, left top, left bottom, from(#adbffd), to(#f6a0a9)) !important;
+    background: linear-gradient(180deg, #adbffd 0%, #f6a0a9 100%) !important;
+  }
+}
+
+@media screen and (max-width: 570.9px) {
+  .navbar_brand {
+    width: 100px;
+    height: 100px;
+  }
+}
+/*# sourceMappingURL=Header.module.css.map */

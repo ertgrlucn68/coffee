@@ -1,0 +1,65 @@
+.banner {
+ padding-top: 0px;
+  padding-bottom: 100px;
+  padding-right: 0px;
+  
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6a0a9), to(#adbffd));
+  background: linear-gradient(180deg, #f6a0a9 0%, #adbffd 100%);
+  position: relative;
+}
+
+.src {
+  position: relative;
+  left: 5000px;
+}
+.title {
+  font-family: "Chelsea Market", cursive;
+  font-size: 30px;
+  color: #effe95;
+  text-align: center;
+}
+
+.button {
+  margin: 40px 0;
+  border-radius: 50px;
+  padding: 20px 30px;
+  background-color: #fff;
+  border: none;
+  font-size: 30px;
+  font-family: "Neuzeit";
+  font-weight: 600;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.button:hover {
+  -webkit-transform: translateY(-5px) !important;
+          transform: translateY(-5px) !important;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.coffee_ball_area {
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+@media screen and (max-width: 358px) and (min-width: 270px) {
+  .banner {
+    padding-top: 130px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .coffee_ball_area {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Banner.module.css.map */
